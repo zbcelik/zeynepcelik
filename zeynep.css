@@ -5,10 +5,6 @@ html, body {
     color: #666666;
 }
 
-body {
-    background-color: whitesmoke;
-}
-
 .top-bar {
     max-width: 1000px;
     position: relative;
@@ -17,20 +13,19 @@ body {
 }
 
 .logo {
-   font-size: 30px;
-   position: absolute;
-   padding: 0px 0px 0px 20px;
-   z-index: 3;
-   color: #131359;
-   font-weight: bold;
+    font-size: 30px;
+    position: absolute;
+    padding: 0px 0px 0px 20px;
+    z-index: 3;
+    color: #131359;
+    font-weight: bold;
 }
 
 .top-menu {
-   background-color: #131359;
-   position: absolute;
-   top: 85px;
-   z-index: 2;
-   width: 100%;
+    position: absolute;
+    top: 85px;
+    z-index: 2;
+    width: 100%;
 }
 
 .top-menu ul {
@@ -45,26 +40,30 @@ body {
 }
 
 .top-menu li a:link, .top-menu li a:visited {
-    color: white;
-    text-decoration: none;
-    padding: 20px 20px 20.5px 20px;
+	color: black;
+	text-decoration: none;
+	padding: 20px 20px 20.5px 20px;
 }
 
 .top-menu li a:hover {
-    background-color: red;
+    border-style: solid;
+    border-width: 0px 0px 4px 0px;
+    border-color: red;
 }
 
 .current-page-link {
-    background-color: #db0e0e;
+    border-style: solid;
+    border-width: 0px 0px 4px 0px;
+    border-color: darkblue;
 }
 
 .page-content {
-    position: relative;
-    top: 145px;
+	position: relative;
+	top: 145px;
     max-width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
     z-index: 1;
 }
 
@@ -88,16 +87,17 @@ body {
     z-index: 3;
     max-width: 1000px;
     margin-left: auto;
-    margin-right: auto;
-    background-color:#3f3c3c;
+    margin-right: auto;   border-style: solid;
+    border-width: 5px 0px 0px 0px;
+    border-color: darkblue;
 }
 
 .footer-content {
     padding: 5px 5px 5px 20px;
-    color: white;
+    color: black;
 }
 
 .footer-content a:link {
-    color: white;
+    color: black;
     text-decoration: none;
 }
